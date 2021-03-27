@@ -58,7 +58,7 @@ def create7z():
 
 
 def encryptfile(filename):
-    fingerprint = 'DE5AE8073361E11B6ED3B629014E4BA24373BA83'
+    fingerprint = 'DE5AE8073361E11B6ED3B629014E4BA24373BA83' #Replace this with your key's fingerprint unless you want my encryption key on your files
     try:
         gpg = gnupg.GPG(gpgbinary='gpg2')
         with open(f'{directorytobackto.resolve()}/{filename}', "r+b") as f:
