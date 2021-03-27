@@ -7,10 +7,10 @@ from pathlib import Path, PurePath
 from py7zr import FILTER_LZMA2, SevenZipFile
 
 
-BACKUPFILE = '/home/slacks/test'
-BACKUPDIR = '/home/slacks/backups'
+
+BACKUPDIR = '/media/slacks/BackupStuff' #Replace this with your backup location
 BACKUPAMOUNT = 5
-filetobackup = Path(BACKUPFILE)
+filetobackup = Path().home()
 directorytobackto = Path(BACKUPDIR)
 
 
@@ -79,10 +79,9 @@ def encryptfile(filename):
 
 
 if __name__ == '__main__':
-    BACKUPFILE = '/home/slacks/test'
-    BACKUPDIR = '/home/slacks/backups'
+    BACKUPDIR = '/media/slacks/BackupStuff' #Replace this with your backup location
     BACKUPAMOUNT = 5
-    filetobackup = Path(BACKUPFILE)
+    filetobackup = Path().home()
     directorytobackto = Path(BACKUPDIR)
     enformaxbackups()
     create7z()
