@@ -84,14 +84,6 @@ if __name__ == '__main__':
         filename = create7z(args)
         if args.commands == 'encrypt':
             encryptfile(filename, args)
-            
-
+    
     except BaseException as e:
         print(f'Error! {e.args}')
-
-    #BACKUPDIR = '/media/slacks/BackupStuff' #Replace this with your backup location
-    #BACKUPAMOUNT = 5
-    #filetobackup = Path().home()
-    #backuplocation = Path(BACKUPDIR)
-    #enformaxbackups()
-    #create7z()
