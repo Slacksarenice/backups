@@ -1,6 +1,6 @@
 # Backup Home Directory (Linux Debian)
 
-This is a very simple backup program that backs-up a specified directory to a location you specify and has gpg capabilites to encrypt only using the key fingerprint.
+This is a very simple backup program that backs-up a specified directory to a location you specify and has gpg capabilites to encrypt only using the key fingerprint. I tried to design it around using it with cron
 
 ## Requirements
 
