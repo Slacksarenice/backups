@@ -1,0 +1,16 @@
+argparse==1.4.0
+bcj-cffi==0.5.0
+cffi==1.14.5
+datetime==4.3
+gnupg==2.3.1
+multivolumefile==0.2.2
+pathlib==1.0.1
+ppmd-cffi==0.3.3
+psutil==5.8.0
+py7zr==0.14.1
+pycparser==2.20
+pycryptodome==3.10.1
+pytz==2021.1
+pyzstd==0.14.4; platform_python_implementation == 'CPython'
+texttable==1.6.3
+zope.interface==5.3.0
